@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_buttons",
+  "info": {
+    "displayName": "buttons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.link"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "muted"
+      ]
+    }
+  }
+}
