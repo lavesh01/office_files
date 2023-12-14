@@ -1,0 +1,39 @@
+.avatar-img {
+    width: 40px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.avatar-desc {
+    padding-left: 0.6rem;
+}
+.avatar-desc .role {
+    font-size: 12px;
+    color: gray;
+}
+.avatar-desc .author {
+    color: inherit;
+    font-size: 15px;
+}
+
+.card-bg {
+    box-shadow: 0 0.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+  border-radius: 0.5rem;
+}
+
+.featured-img { 
+    max-height: 400px;
+}
+
+.featured-img img {
+    object-position: center center;
+}
+
+.tag {
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
+    padding: 4px 6px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+}

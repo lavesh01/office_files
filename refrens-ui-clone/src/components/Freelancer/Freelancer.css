@@ -1,0 +1,120 @@
+.freelancer-contain {
+    width: 100%;
+    height: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background: rgb(22, 28, 38);
+    color: rgb(255, 255, 255);
+    min-height: 550px;
+}
+
+.header-container {
+    width: auto;
+    height: auto;
+    z-index: 1;
+    display: flex;
+    margin: 0 auto;
+}
+@media screen and (min-width: 40em){
+    .header-container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: calc(1320px)){
+    .header-container {
+        padding: 0px 68px;
+    }
+}
+
+
+.header-wrapper {
+    /* padding: 10px 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-head {
+    letter-spacing: -1px;
+    text-align: left;
+    font-size: 2.625rem;
+    font-weight: 600;
+    margin: 0.4em 0px;
+}
+p {
+    margin: 0.2em 0px 0.8em;
+}
+.f-description p {
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.f-btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+.purple-join-btn {
+    display: inline-flex;
+    outline: none;
+    width: auto;
+    line-height: 1.5;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 400;
+    -webkit-box-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background: rgb(115, 61, 217);
+    border: 1px solid rgb(115, 61, 217);
+    height: 3rem;
+    padding: 0px 1.5rem;
+    white-space: nowrap;
+    appearance: none !important;
+}
+
+.f-btn-text {
+    display: block;
+    line-height: 1.5;
+    margin: 0px;
+    font-size: 0.875rem;
+    color: rgb(225,225,225);
+    font-weight: 700;
+}
+
+
+.img-section {
+    flex: 1.5;
+    padding: 1rem 0 0 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-section img {
+    align-self: flex-start;
+    width: 90%;
+    height: 100%;
+    object-fit: scale-down;
+    max-width: 100%;
+}

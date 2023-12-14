@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+<!-- <script src="/grapes/dist/grapes.min.js" defer> </script>
+<link rel="stylesheet" href="/grapes/dist/css/grapes.min.css">  -->
+<script src="https://cdn.jsdelivr.net/npm/grapesjs-preset-webpage@1.0.3/dist/index.min.js"></script>
+
+    
+    <script src="https://unpkg.com/grapesjs-plugin-forms"></script>
+    <script src="https://cdn.jsdelivr.net/npm/grapesjs-custom-code@1.0.2/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/grapesjs-component-countdown@1.0.2/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/grapesjs-navbar@1.0.2/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/grapesjs-typed@2.0.1/dist/index.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/grapesjs-tooltip@0.1.8/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/grapesjs-tabs@1.0.6/dist/grapesjs-tabs.min.js"></script> 
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/grapesjs-blocks-basic@1.0.2/dist/index.min.js"></script>
+
+    
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/grapesjs/0.21.3/css/grapes.min.css" integrity="sha512-fiIUOgwGHicmQA/sf0briEWNJnSW5AGAnYSASgWvEe/iQAJYuw78oSZr0LY82Ty075RK579ujEyVsoJvN2hpJA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/grapesjs/0.21.3/grapes.min.js" integrity="sha512-sNVpSXmj+Glx3ttgGSPPmyv1/kfeyJNAphxVxPALZrCFSMpRMKFZboh/kcEV8hzcy9fCe9LAklj309b29+z/0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+
+</head>
+<body>
+    <div style="width: auto; height: 100vh">
+
+        <div id="gjs" >
+            <h1 style="padding: 25px">Hello world!</h1>
+        </div>
+        
+    </div>
+
+  <script>
+    var editor = grapesjs.init({
+    container: '#gjs',
+    fromElement: true,
+    height: '100%',
+    showOffsets: 1,
+    noticeOnUnload: 0,
+    storageManager: false,
+    plugins: ['grapesjs-preset-webpage'],
+  
+  
+  plugins: ['grapesjs-preset-webpage',"gjs-blocks-basic",'grapesjs-plugin-forms','grapesjs-custom-code','grapesjs-component-countdown','grapesjs-navbar','grapesjs-typed','grapesjs-tooltip','grapesjs-tabs'],
+    pluginsOpts: {
+      'grapesjs-preset-webpage': {},
+      "gjs-blocks-basic": {},
+      'grapes.js-plugin-forms':{},
+      'grapesjs-custom-code': {},
+      'grapesjs-component-countdown': {},
+      'grapesjs-navbar': {},
+      'grapesjs-typed': {},
+      'grapesjs-tooltip': {},
+      'grapesjs-tabs': {},
+  },
+});
+
+  </script>
+</body>
+</html>

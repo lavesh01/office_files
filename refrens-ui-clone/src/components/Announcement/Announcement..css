@@ -1,0 +1,16 @@
+.container {
+    background-color: rgb(233, 224, 249);
+    box-shadow: rgba(127, 143, 164, 0.08) 0px 3px 6px;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+
+.announcement-text {
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0px !important;
+    font-size: 1rem;
+    color: rgb(22, 28, 38);
+}

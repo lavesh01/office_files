@@ -1,0 +1,120 @@
+.h-contain {
+    background: rgb(119, 85, 255);
+    color: rgb(255, 255, 255);
+    padding: 76px 0px 80px;
+}
+
+.header-container {
+    width: auto;
+    height: auto;
+    z-index: 1;
+    display: flex;
+    margin: 0 auto;
+}
+@media screen and (min-width: 40em){
+    .header-container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: calc(1320px)){
+    .header-container {
+        padding: 0px 68px;
+    }
+}
+
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 4rem;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0.4em 0;
+}
+p {
+    margin: 0.2em 0px 0.8em;
+}
+.description {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+.h-btn{
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.5rem 0 2rem 0;
+}
+.join-btn {
+    display: inline-flex;
+    outline: none;
+    width: 8rem;
+    line-height: 1.5;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 400;
+    -webkit-box-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgb(180, 194, 213);
+    height: 3rem;
+    padding: 0px 1.5rem;
+    white-space: nowrap;
+    background: rgb(255, 255, 255);
+    color: rgb(81, 97, 115);
+    appearance: none !important;
+}
+
+.h-btn-text {
+    display: block;
+    line-height: 1.5;
+    margin: 0px;
+    font-size: 0.875rem;
+    color: rgb(22, 28, 38);
+    font-weight: 700;
+}
+
+.motto {
+    display: block;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0px;
+    font-size: 0.875rem;
+    color: rgb(255, 255, 255);
+}
+
+.img-section {
+    flex: 1.5;
+    padding: 1rem 0 0 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-section img {
+    align-self: flex-start;
+    width: 90%;
+    height: 100%;
+    object-fit: scale-down;
+    max-width: 100%;
+}
